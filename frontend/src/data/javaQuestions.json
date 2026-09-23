@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "answer": "extends"
+  },
+  {
+    "id": 2,
+    "question": "Which method is the entry point of a Java program?",
+    "options": [
+      "start()",
+      "run()",
+      "main()",
+      "execute()"
+    ],
+    "answer": "main()"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is not a primitive data type in Java?",
+    "options": [
+      "int",
+      "float",
+      "String",
+      "char"
+    ],
+    "answer": "String"
+  },
+  {
+    "id": 4,
+    "question": "Which keyword is used to create an object in Java?",
+    "options": [
+      "class",
+      "new",
+      "object",
+      "create"
+    ],
+    "answer": "new"
+  },
+  {
+    "id": 5,
+    "question": "Which concept allows the same method name to have different parameters?",
+    "options": [
+      "Inheritance",
+      "Encapsulation",
+      "Method Overloading",
+      "Abstraction"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is used to achieve runtime polymorphism in Java?",
+    "options": [
+      "Method Overloading",
+      "Method Overriding",
+      "Constructor",
+      "Static Method"
+    ],
+    "answer": "Method Overriding"
+  },
+  {
+    "id": 7,
+    "question": "Which keyword is used to prevent inheritance in Java?",
+    "options": [
+      "static",
+      "private",
+      "final",
+      "super"
+    ],
+    "answer": "final"
+  },
+  {
+    "id": 8,
+    "question": "Which collection does not allow duplicate elements?",
+    "options": [
+      "ArrayList",
+      "LinkedList",
+      "HashSet",
+      "Vector"
+    ],
+    "answer": "HashSet"
+  },
+  {
+    "id": 9,
+    "question": "Which data structure stores key-value pairs in Java?",
+    "options": [
+      "ArrayList",
+      "HashMap",
+      "Stack",
+      "Queue"
+    ],
+    "answer": "HashMap"
+  },
+  {
+    "id": 10,
+    "question": "What is the default value of an int instance variable in Java?",
+    "options": [
+      "1",
+      "null",
+      "0",
+      "undefined"
+    ],
+    "answer": "0"
+  },
+  {
+    "id": 11,
+    "question": "Which exception occurs when dividing an integer by zero?",
+    "options": [
+      "NullPointerException",
+      "ArithmeticException",
+      "IOException",
+      "ClassNotFoundException"
+    ],
+    "answer": "ArithmeticException"
+  },
+  {
+    "id": 12,
+    "question": "Which keyword refers to the current object in Java?",
+    "options": [
+      "super",
+      "this",
+      "current",
+      "self"
+    ],
+    "answer": "this"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is a checked exception?",
+    "options": [
+      "ArithmeticException",
+      "NullPointerException",
+      "IOException",
+      "ArrayIndexOutOfBoundsException"
+    ],
+    "answer": "IOException"
+  },
+  {
+    "id": 14,
+    "question": "Which OOP concept hides the internal implementation details?",
+    "options": [
+      "Inheritance",
+      "Encapsulation",
+      "Abstraction",
+      "Polymorphism"
+    ],
+    "answer": "Abstraction"
+  },
+  {
+    "id": 15,
+    "question": "Which method is used to compare the contents of two strings in Java?",
+    "options": [
+      "==",
+      "compare()",
+      "equals()",
+      "match()"
+    ],
+    "answer": "equals()"
+  }
+]

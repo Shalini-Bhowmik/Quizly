@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is an operating system?",
+    "options": [
+      "System software that manages computer resources",
+      "A programming language",
+      "A database",
+      "An antivirus program"
+    ],
+    "answer": "System software that manages computer resources"
+  },
+  {
+    "question": "Which of the following is an example of an operating system?",
+    "options": [
+      "MySQL",
+      "Windows",
+      "Java",
+      "HTML"
+    ],
+    "answer": "Windows"
+  },
+  {
+    "question": "Which component of an operating system manages processes?",
+    "options": [
+      "Process Scheduler",
+      "Compiler",
+      "File Manager",
+      "Text Editor"
+    ],
+    "answer": "Process Scheduler"
+  },
+  {
+    "question": "What is a process?",
+    "options": [
+      "A program in execution",
+      "A stored file",
+      "A hardware device",
+      "A programming language"
+    ],
+    "answer": "A program in execution"
+  },
+  {
+    "question": "Which scheduling algorithm executes processes in the order they arrive?",
+    "options": [
+      "Round Robin",
+      "FCFS",
+      "Shortest Job First",
+      "Priority Scheduling"
+    ],
+    "answer": "FCFS"
+  },
+  {
+    "question": "Which scheduling algorithm assigns a fixed time interval to each process?",
+    "options": [
+      "FCFS",
+      "Round Robin",
+      "Priority Scheduling",
+      "SJF"
+    ],
+    "answer": "Round Robin"
+  },
+  {
+    "question": "What is a thread?",
+    "options": [
+      "A lightweight unit of a process",
+      "A type of memory",
+      "A storage device",
+      "A programming language"
+    ],
+    "answer": "A lightweight unit of a process"
+  },
+  {
+    "question": "Which memory management technique uses fixed-size blocks called pages?",
+    "options": [
+      "Segmentation",
+      "Paging",
+      "Compaction",
+      "Swapping"
+    ],
+    "answer": "Paging"
+  },
+  {
+    "question": "What is virtual memory?",
+    "options": [
+      "Memory stored only in CPU registers",
+      "A technique that uses disk space as an extension of RAM",
+      "A type of cache memory",
+      "A physical memory chip"
+    ],
+    "answer": "A technique that uses disk space as an extension of RAM"
+  },
+  {
+    "question": "Which of the following is required for a deadlock to occur?",
+    "options": [
+      "Mutual exclusion",
+      "Compilation",
+      "Paging",
+      "Multithreading only"
+    ],
+    "answer": "Mutual exclusion"
+  },
+  {
+    "question": "Which condition means a process is waiting indefinitely for a resource held by another process?",
+    "options": [
+      "Deadlock",
+      "Paging",
+      "Fragmentation",
+      "Scheduling"
+    ],
+    "answer": "Deadlock"
+  },
+  {
+    "question": "Which of the following is a file management operation?",
+    "options": [
+      "Creating a file",
+      "Increasing CPU speed",
+      "Changing monitor resolution",
+      "Increasing RAM physically"
+    ],
+    "answer": "Creating a file"
+  },
+  {
+    "question": "What is context switching?",
+    "options": [
+      "Changing from one process to another",
+      "Changing the operating system",
+      "Changing a file name",
+      "Changing the CPU hardware"
+    ],
+    "answer": "Changing from one process to another"
+  },
+  {
+    "question": "Which memory is closest to the CPU?",
+    "options": [
+      "Hard Disk",
+      "RAM",
+      "Cache",
+      "USB Drive"
+    ],
+    "answer": "Cache"
+  },
+  {
+    "question": "Which of the following is NOT an operating system?",
+    "options": [
+      "Linux",
+      "Windows",
+      "Android",
+      "MySQL"
+    ],
+    "answer": "MySQL"
+  }
+]

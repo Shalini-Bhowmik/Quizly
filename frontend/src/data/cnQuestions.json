@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What does LAN stand for?",
+    "options": [
+      "Local Area Network",
+      "Large Area Network",
+      "Long Area Network",
+      "Linked Area Network"
+    ],
+    "answer": "Local Area Network"
+  },
+  {
+    "question": "Which device is used to connect different networks?",
+    "options": [
+      "Switch",
+      "Router",
+      "Hub",
+      "Repeater"
+    ],
+    "answer": "Router"
+  },
+  {
+    "question": "Which protocol is used to transfer web pages?",
+    "options": [
+      "FTP",
+      "HTTP",
+      "SMTP",
+      "DNS"
+    ],
+    "answer": "HTTP"
+  },
+  {
+    "question": "What does IP stand for?",
+    "options": [
+      "Internet Protocol",
+      "Internet Program",
+      "Internal Protocol",
+      "Internet Process"
+    ],
+    "answer": "Internet Protocol"
+  },
+  {
+    "question": "Which protocol is used to translate domain names into IP addresses?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "DNS",
+      "SMTP"
+    ],
+    "answer": "DNS"
+  },
+  {
+    "question": "Which protocol is mainly used for sending emails?",
+    "options": [
+      "SMTP",
+      "HTTP",
+      "FTP",
+      "DNS"
+    ],
+    "answer": "SMTP"
+  },
+  {
+    "question": "Which protocol is used for transferring files between computers?",
+    "options": [
+      "FTP",
+      "HTTP",
+      "SMTP",
+      "ARP"
+    ],
+    "answer": "FTP"
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for routing?",
+    "options": [
+      "Physical Layer",
+      "Data Link Layer",
+      "Network Layer",
+      "Application Layer"
+    ],
+    "answer": "Network Layer"
+  },
+  {
+    "question": "How many layers are there in the OSI model?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "question": "Which device operates mainly at the Data Link layer of the OSI model?",
+    "options": [
+      "Router",
+      "Switch",
+      "Repeater",
+      "Modem"
+    ],
+    "answer": "Switch"
+  },
+  {
+    "question": "Which protocol provides reliable and connection-oriented communication?",
+    "options": [
+      "UDP",
+      "IP",
+      "TCP",
+      "ICMP"
+    ],
+    "answer": "TCP"
+  },
+  {
+    "question": "Which protocol is connectionless?",
+    "options": [
+      "TCP",
+      "UDP",
+      "HTTP",
+      "FTP"
+    ],
+    "answer": "UDP"
+  },
+  {
+    "question": "What is the main purpose of a MAC address?",
+    "options": [
+      "Identify a device on a local network",
+      "Identify a website",
+      "Store files",
+      "Encrypt data"
+    ],
+    "answer": "Identify a device on a local network"
+  },
+  {
+    "question": "Which topology connects all devices to a central device?",
+    "options": [
+      "Bus",
+      "Ring",
+      "Star",
+      "Mesh"
+    ],
+    "answer": "Star"
+  },
+  {
+    "question": "What is the full form of WAN?",
+    "options": [
+      "Wide Area Network",
+      "Wireless Area Network",
+      "Web Area Network",
+      "World Access Network"
+    ],
+    "answer": "Wide Area Network"
+  }
+]

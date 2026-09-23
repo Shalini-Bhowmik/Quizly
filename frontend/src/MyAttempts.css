@@ -1,0 +1,578 @@
+/* ================================
+   MY ATTEMPTS PAGE
+================================ */
+
+.attempts-page {
+  min-height: 100vh;
+  background: #f7f4ef;
+  padding: 40px 50px;
+  box-sizing: border-box;
+}
+
+
+/* ================================
+   HEADER
+================================ */
+
+.attempts-header {
+  max-width: 1250px;
+  margin: 0 auto 35px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attempts-label {
+  margin: 0 0 8px;
+
+  font-size: 12px;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+
+  color: #a58d73;
+}
+
+.attempts-header h1 {
+  margin: 0;
+
+  font-size: 38px;
+
+  color: #352e28;
+}
+
+.attempts-header p {
+  margin: 8px 0 0;
+
+  color: #84786e;
+
+  font-size: 15px;
+}
+
+
+/* ================================
+   DASHBOARD BUTTON
+================================ */
+
+.attempts-dashboard-button {
+  border: none;
+
+  background: #3c342d;
+
+  color: white;
+
+  padding: 13px 22px;
+
+  border-radius: 12px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.attempts-dashboard-button:hover {
+  transform: translateY(-2px);
+
+  background: #51473e;
+}
+
+
+/* ================================
+   MAIN CONTENT CARD
+================================ */
+
+.attempts-content {
+  max-width: 1250px;
+
+  margin: 0 auto;
+
+  background: white;
+
+  border-radius: 24px;
+
+  padding: 32px;
+
+  box-sizing: border-box;
+
+  box-shadow:
+    0 12px 35px rgba(60, 45, 30, 0.08);
+}
+
+
+/* ================================
+   TITLE ROW
+================================ */
+
+.attempts-title-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 28px;
+}
+
+.attempts-title-row h2 {
+  margin: 0;
+
+  font-size: 25px;
+
+  color: #3b332c;
+}
+
+.attempts-title-row p {
+  margin: 6px 0 0;
+
+  color: #8b8077;
+
+  font-size: 14px;
+}
+
+
+/* ================================
+   ATTEMPT COUNT
+================================ */
+
+.attempt-count {
+  min-width: 70px;
+
+  padding: 10px 18px;
+
+  border-radius: 14px;
+
+  background: #fff4df;
+
+  color: #bd7e3c;
+
+  font-size: 22px;
+
+  font-weight: 800;
+
+  text-align: center;
+}
+
+.attempt-count span {
+  display: block;
+
+  margin-top: 2px;
+
+  font-size: 11px;
+
+  font-weight: 600;
+
+  color: #9b8977;
+}
+
+
+/* ================================
+   TABLE
+================================ */
+
+.attempts-list {
+  width: 100%;
+}
+
+
+/* TABLE HEADER */
+
+.attempts-table-header {
+  display: grid;
+
+  grid-template-columns:
+    2fr
+    1fr
+    1.2fr
+    1.7fr;
+
+  gap: 15px;
+
+  align-items: center;
+
+  padding: 15px 20px;
+
+  background: #faf8f5;
+
+  border-radius: 12px;
+
+  color: #9a8d81;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.8px;
+}
+
+
+/* ================================
+   ATTEMPT ROW
+================================ */
+
+.attempt-row {
+  display: grid;
+
+  grid-template-columns:
+    2fr
+    1fr
+    1.2fr
+    1.7fr;
+
+  gap: 15px;
+
+  align-items: center;
+
+  padding: 20px;
+
+  border-bottom: 1px solid #eee8e1;
+
+  transition: 0.2s;
+}
+
+.attempt-row:hover {
+  background: #fffaf3;
+
+  transform: translateX(3px);
+}
+
+
+/* ================================
+   SUBJECT
+================================ */
+
+.attempt-subject {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+}
+
+.attempt-subject-icon {
+  width: 48px;
+
+  height: 48px;
+
+  flex-shrink: 0;
+
+  border-radius: 14px;
+
+  background: #f8f2e9;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 24px;
+}
+
+.attempt-subject strong {
+  display: block;
+
+  color: #39312b;
+
+  font-size: 16px;
+}
+
+.attempt-subject span {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #958a80;
+
+  font-size: 12px;
+}
+
+
+/* ================================
+   SCORE
+================================ */
+
+.attempt-score strong {
+  font-size: 20px;
+
+  color: #3d352e;
+}
+
+.attempt-score span {
+  color: #978b81;
+
+  font-size: 14px;
+}
+
+
+/* ================================
+   PERCENTAGE
+================================ */
+
+.attempt-percentage strong {
+  font-size: 18px;
+
+  color: #c37e37;
+}
+
+
+/* ================================
+   DATE
+================================ */
+
+.attempt-date {
+  color: #7e736a;
+
+  font-size: 13px;
+
+  line-height: 1.4;
+}
+
+
+/* ================================
+   EMPTY STATE
+================================ */
+
+.attempts-empty {
+  text-align: center;
+
+  padding: 70px 20px;
+}
+
+.attempts-empty-icon {
+  font-size: 45px;
+
+  margin-bottom: 15px;
+}
+
+.attempts-empty h3 {
+  margin: 0;
+
+  color: #40372f;
+
+  font-size: 20px;
+}
+
+.attempts-empty p {
+  color: #8b8077;
+
+  font-size: 14px;
+}
+
+
+/* ================================
+   BOTTOM BUTTON
+================================ */
+
+.attempts-bottom {
+  display: flex;
+
+  justify-content: center;
+
+  margin-top: 30px;
+}
+
+.attempts-back-button {
+  border: 1px solid #ded5ca;
+
+  background: white;
+
+  color: #4a4038;
+
+  padding: 12px 25px;
+
+  border-radius: 12px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.attempts-back-button:hover {
+  background: #f8f3ec;
+
+  transform: translateY(-2px);
+}
+
+
+/* ================================
+   MOBILE / SMALL SCREEN
+================================ */
+
+@media (max-width: 900px) {
+
+  .attempts-page {
+    padding: 25px 18px;
+  }
+
+  .attempts-header {
+    align-items: flex-start;
+
+    gap: 20px;
+
+    flex-direction: column;
+  }
+
+  .attempts-header h1 {
+    font-size: 30px;
+  }
+
+  .attempts-content {
+    padding: 20px;
+
+    overflow-x: auto;
+  }
+
+  .attempts-table-header,
+  .attempt-row {
+    min-width: 850px;
+  }
+
+}
+
+
+/* =================================
+   SEARCH AND FILTERS
+================================= */
+
+.attempts-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 28px;
+  padding: 18px;
+  background: #faf8f5;
+  border: 1px solid #eee7df;
+  border-radius: 16px;
+}
+
+
+/* SEARCH BOX */
+
+.attempts-search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  max-width: 420px;
+  padding: 12px 15px;
+  background: white;
+  border: 1px solid #e5ddd4;
+  border-radius: 11px;
+}
+
+.attempts-search-box span {
+  font-size: 16px;
+}
+
+.attempts-search-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #3c342d;
+  font-size: 13px;
+}
+
+.attempts-search-box input::placeholder {
+  color: #a2968b;
+}
+
+.attempts-search-clear {
+  border: none;
+  background: transparent;
+  color: #8b8077;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.attempts-search-clear:hover {
+  color: #bd7e3c;
+}
+
+
+/* SUBJECT FILTER */
+
+.attempts-subject-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.attempts-subject-filter label {
+  color: #6f6257;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.attempts-subject-filter select {
+  padding: 12px 14px;
+  border: 1px solid #e5ddd4;
+  border-radius: 11px;
+  background: white;
+  color: #4a4038;
+  font-size: 13px;
+  outline: none;
+  cursor: pointer;
+}
+
+.attempts-subject-filter select:focus {
+  border-color: #bd7e3c;
+}
+
+
+/* CLEAR FILTERS BUTTON */
+
+.clear-filters-button {
+  margin-top: 18px;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #3c342d;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.clear-filters-button:hover {
+  background: #51473e;
+  transform: translateY(-2px);
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 700px) {
+
+  .attempts-filters {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .attempts-search-box {
+    max-width: none;
+  }
+
+  .attempts-subject-filter {
+    justify-content: space-between;
+  }
+
+  .attempts-subject-filter select {
+    flex: 1;
+    max-width: 220px;
+  }
+
+}

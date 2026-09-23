@@ -1,0 +1,329 @@
+/* =================================
+   LOGIN PAGE
+================================= */
+
+.login-page {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f7f4ef;
+
+  padding: 30px;
+
+  box-sizing: border-box;
+}
+
+
+/* =================================
+   LOGIN CARD
+================================= */
+
+.login-card {
+  width: 420px;
+
+  padding: 45px;
+
+  background: #ffffff;
+
+  border-radius: 24px;
+
+  box-shadow:
+    0 18px 45px rgba(60, 45, 30, 0.10);
+
+  box-sizing: border-box;
+
+  border: 1px solid #eee7df;
+}
+
+
+/* =================================
+   LOGO
+================================= */
+
+.login-card .login-logo {
+  text-align: center;
+
+  font-size: 31px;
+
+  font-weight: 800;
+
+  color: #3c342d;
+
+  margin: 0 0 28px;
+
+  line-height: 1.2;
+}
+
+
+/* =================================
+   TITLE
+================================= */
+
+.login-card h1 {
+  text-align: center;
+
+  margin: 0 0 10px;
+
+  padding: 0;
+
+  color: #352e28;
+
+  font-size: 32px;
+
+  font-weight: 700;
+
+  line-height: 1.25;
+}
+
+
+/* =================================
+   SUBTITLE
+================================= */
+
+.login-card .login-subtitle {
+  text-align: center;
+
+  color: #8b8077;
+
+  margin: 12px 0 30px;
+
+  font-size: 15px;
+
+  line-height: 1.6;
+}
+
+
+/* =================================
+   FORM GROUP
+================================= */
+
+.login-card .form-group {
+  margin-bottom: 20px;
+}
+
+
+/* LABEL */
+
+.login-card .form-group label {
+  display: block;
+
+  margin: 0 0 8px;
+
+  font-weight: 600;
+
+  color: #4a4038;
+
+  font-size: 14px;
+
+  line-height: 1.4;
+}
+
+
+/* =================================
+   INPUT
+================================= */
+
+.login-card .form-group input {
+  width: 100%;
+
+  padding: 14px;
+
+  border: 1px solid #ded5ca;
+
+  border-radius: 12px;
+
+  font-size: 15px;
+
+  outline: none;
+
+  box-sizing: border-box;
+
+  background: #fcfaf7;
+
+  color: #3c342d;
+
+  line-height: 1.4;
+
+  transition: 0.2s;
+}
+
+
+.login-card .form-group input::placeholder {
+  color: #aaa096;
+}
+
+
+.login-card .form-group input:focus {
+  border-color: #b7a58f;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 0 0 3px rgba(183, 165, 143, 0.15);
+}
+
+
+/* =================================
+   LOGIN BUTTON
+================================= */
+
+.login-card .login-button {
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: #3c342d;
+
+  color: #ffffff;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  line-height: 1.4;
+
+  box-sizing: border-box;
+
+  margin: 0;
+
+  transition: 0.2s;
+}
+
+
+.login-card .login-button:hover {
+  background: #51473e;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 8px 18px rgba(60, 45, 30, 0.15);
+}
+
+
+/* =================================
+   REGISTER TEXT
+================================= */
+
+.login-card .register-text {
+  text-align: center;
+
+  margin: 25px 0 0;
+
+  color: #8b8077;
+
+  font-size: 14px;
+
+  line-height: 1.5;
+}
+
+
+.login-card .register-text span {
+  color: #bd7e3c;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+
+.login-card .register-text span:hover {
+  color: #a7672d;
+
+  text-decoration: underline;
+}
+
+
+/* =================================
+   RESPONSIVE
+================================= */
+
+@media (max-width: 500px) {
+
+  .login-page {
+    padding: 20px;
+  }
+
+  .login-card {
+    width: 100%;
+
+    padding: 32px 25px;
+
+    border-radius: 20px;
+  }
+
+  .login-card h1 {
+    font-size: 28px;
+  }
+
+}
+
+/* =================================
+   BACK TO HOME BUTTON
+================================= */
+
+.back-home-button {
+  position: absolute;
+
+  top: 25px;
+  left: 30px;
+
+  border: 1px solid #ded5ca;
+
+  background: rgba(255, 255, 255, 0.9);
+
+  color: #4a4038;
+
+  padding: 11px 18px;
+
+  border-radius: 11px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+  box-shadow: 0 5px 15px rgba(60, 45, 30, 0.05);
+}
+
+
+.back-home-button:hover {
+  background: #ffffff;
+
+  color: #bd7e3c;
+
+  transform: translateX(-2px);
+
+  box-shadow:
+    0 8px 20px rgba(60, 45, 30, 0.10);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+
+  .back-home-button {
+    top: 15px;
+
+    left: 15px;
+
+    padding: 9px 14px;
+
+    font-size: 13px;
+  }
+
+}

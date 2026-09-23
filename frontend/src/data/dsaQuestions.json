@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "What is the time complexity of accessing an element in an array using its index?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+    "answer": "O(1)"
+  },
+  {
+    "id": 2,
+    "question": "Which data structure follows the LIFO principle?",
+    "options": ["Queue", "Stack", "Linked List", "Array"],
+    "answer": "Stack"
+  },
+  {
+    "id": 3,
+    "question": "Which data structure follows the FIFO principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue"
+  },
+  {
+    "id": 4,
+    "question": "What is the worst-case time complexity of linear search?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "answer": "O(n)"
+  },
+  {
+    "id": 5,
+    "question": "Which sorting algorithm has an average time complexity of O(n log n)?",
+    "options": ["Bubble Sort", "Selection Sort", "Merge Sort", "Linear Search"],
+    "answer": "Merge Sort"
+  },
+  {
+    "id": 6,
+    "question": "Which data structure is commonly used to implement recursion?",
+    "options": ["Queue", "Stack", "Graph", "Heap"],
+    "answer": "Stack"
+  },
+  {
+    "id": 7,
+    "question": "In a binary tree, what is the maximum number of children a node can have?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "id": 8,
+    "question": "Which traversal of a Binary Search Tree gives elements in sorted order?",
+    "options": ["Preorder", "Postorder", "Inorder", "Level Order"],
+    "answer": "Inorder"
+  },
+  {
+    "id": 9,
+    "question": "Which data structure is used in Breadth First Search (BFS)?",
+    "options": ["Stack", "Queue", "Heap", "Array"],
+    "answer": "Queue"
+  },
+  {
+    "id": 10,
+    "question": "Which data structure is commonly used in Depth First Search (DFS)?",
+    "options": ["Queue", "Stack", "HashMap", "Linked List"],
+    "answer": "Stack"
+  },
+  {
+    "id": 11,
+    "question": "What is the average time complexity of searching in a HashMap?",
+    "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+    "answer": "O(1)"
+  },
+  {
+    "id": 12,
+    "question": "Which data structure is best suited for implementing a priority queue?",
+    "options": ["Stack", "Heap", "Array", "Linked List"],
+    "answer": "Heap"
+  },
+  {
+    "id": 13,
+    "question": "What is the worst-case time complexity of Quick Sort?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(n²)"],
+    "answer": "O(n²)"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is a linear data structure?",
+    "options": ["Tree", "Graph", "Array", "Binary Search Tree"],
+    "answer": "Array"
+  },
+  {
+    "id": 15,
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "options": ["O(n)", "O(n²)", "O(log n)", "O(1)"],
+    "answer": "O(log n)"
+  }
+]

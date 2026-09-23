@@ -1,0 +1,928 @@
+
+/* =========================================
+   QUIZLY PASTEL INSTRUCTIONS PAGE
+========================================= */
+
+.quiz-instructions-page {
+  min-height: 100vh;
+  width: 100%;
+  padding-bottom: 35px;
+  background:
+    radial-gradient(
+      circle at 5% 5%,
+      #ffd2d2 0,
+      #ffd2d2 100px,
+      transparent 101px
+    ),
+    radial-gradient(
+      circle at 95% 7%,
+      #dcebd2 0,
+      #dcebd2 100px,
+      transparent 101px
+    ),
+    radial-gradient(
+      circle at 100% 80%,
+      #e8ddf9 0,
+      #e8ddf9 125px,
+      transparent 126px
+    ),
+    radial-gradient(
+      circle at 0% 90%,
+      #ffd7cc 0,
+      #ffd7cc 100px,
+      transparent 101px
+    ),
+    linear-gradient(
+      135deg,
+      #fff9f1,
+      #fffdfb,
+      #fff5f0
+    );
+
+  color: #392822;
+  font-family: Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* =========================================
+   SUBJECT COLOR THEMES
+========================================= */
+
+.java-theme {
+  --primary: #f47760;
+  --primary-light: #ffe0d2;
+  --primary-dark: #b64a32;
+  --hero-background: #ffddc7;
+}
+
+.dsa-theme {
+  --primary: #6b9c76;
+  --primary-light: #e0efda;
+  --primary-dark: #3d704b;
+  --hero-background: #dfefd9;
+}
+
+.dbms-theme {
+  --primary: #d49a31;
+  --primary-light: #fff0c9;
+  --primary-dark: #956716;
+  --hero-background: #ffedc1;
+}
+
+.os-theme {
+  --primary: #8b6bc0;
+  --primary-light: #e9e0fa;
+  --primary-dark: #64499b;
+  --hero-background: #e9e0fa;
+}
+
+.cn-theme {
+  --primary: #d66e9b;
+  --primary-light: #f9dce9;
+  --primary-dark: #a54874;
+  --hero-background: #f8dce8;
+}
+
+
+/* =========================================
+   TOP NAVIGATION
+========================================= */
+
+.instructions-topbar {
+  width: 88%;
+  max-width: 1360px;
+  min-height: 92px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+  z-index: 2;
+}
+
+.instructions-back-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 13px 21px;
+  border: none;
+  border-radius: 30px;
+
+  background: #ffdfd0;
+  color: #e65e45;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.instructions-back-button:hover {
+  background: #ffc9b7;
+  transform: translateX(-4px);
+}
+
+.instructions-back-button span {
+  font-size: 21px;
+  line-height: 1;
+}
+
+.instructions-brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  color: #412923;
+  font-size: 27px;
+}
+
+.instructions-brand span {
+  width: 43px;
+  height: 43px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 13px;
+  background: #ff7866;
+  color: white;
+
+  font-size: 25px;
+  box-shadow: 0 6px 15px rgba(244, 124, 98, 0.2);
+}
+
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.instructions-content {
+  width: 88%;
+  max-width: 1360px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* =========================================
+   HERO BANNER
+========================================= */
+
+.instructions-hero {
+  min-height: 205px;
+  padding: 28px 38px;
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  position: relative;
+  overflow: hidden;
+
+  border: 1px solid rgba(238, 205, 186, 0.7);
+  border-radius: 25px;
+
+  background:
+    radial-gradient(
+      circle at 85% 5%,
+      rgba(255, 255, 255, 0.45) 0,
+      rgba(255, 255, 255, 0.45) 80px,
+      transparent 81px
+    ),
+    var(--hero-background);
+
+  box-shadow: 0 5px 18px rgba(111, 77, 57, 0.05);
+}
+
+.hero-subject-icon {
+  width: 140px;
+  height: 140px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.46);
+
+  font-size: 65px;
+
+  box-shadow: 0 6px 15px rgba(120, 83, 65, 0.05);
+}
+
+.hero-subject-content {
+  position: relative;
+  z-index: 2;
+}
+
+.instructions-category {
+  display: inline-block;
+
+  padding: 7px 15px;
+  border-radius: 20px;
+
+  background: var(--primary-light);
+  color: var(--primary-dark);
+
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.hero-subject-content h1 {
+  margin: 13px 0 10px;
+
+  color: #3b211b;
+  font-size: 39px;
+  line-height: 1.1;
+  letter-spacing: -1.3px;
+}
+
+.hero-subject-content p {
+  max-width: 600px;
+  margin: 0;
+
+  color: #77574b;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hero-decoration {
+  position: absolute;
+  color: var(--primary);
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+.hero-star {
+  top: 25px;
+  right: 60px;
+  font-size: 38px;
+}
+
+.hero-heart {
+  right: 105px;
+  bottom: 25px;
+  font-size: 30px;
+}
+
+
+/* =========================================
+   INFORMATION CARDS
+========================================= */
+
+.quiz-information-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+
+  margin: 20px 0;
+}
+
+.information-card {
+  min-height: 100px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 18px 20px;
+
+  border: 1px solid rgba(235, 220, 209, 0.8);
+  border-radius: 20px;
+
+  background: #fffdfa;
+
+  box-shadow: 0 4px 15px rgba(100, 72, 50, 0.035);
+
+  transition: all 0.25s ease;
+}
+
+.information-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(100, 72, 50, 0.09);
+}
+
+.information-icon {
+  width: 62px;
+  height: 62px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  font-size: 28px;
+}
+
+.questions-card .information-icon {
+  background: #ffe1d4;
+}
+
+.minutes-card .information-icon {
+  background: #dfefd9;
+}
+
+.format-card .information-icon {
+  background: #ffefc6;
+}
+
+.correct-card .information-icon {
+  background: #e9defa;
+}
+
+.information-text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.information-text strong {
+  color: #38251f;
+  font-size: 28px;
+}
+
+.information-text span {
+  color: #59443b;
+  font-size: 13px;
+}
+
+.information-arrow {
+  margin-left: auto;
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+/* =========================================
+   MAIN GRID
+========================================= */
+
+.instructions-main-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(320px, 0.85fr);
+  gap: 20px;
+  align-items: stretch;
+}
+
+
+/* =========================================
+   INSTRUCTIONS CARD
+========================================= */
+
+.instructions-rules-card {
+  padding: 30px 35px;
+
+  border: 1px solid #f0e1d5;
+  border-radius: 23px;
+
+  background:
+    radial-gradient(
+      circle at 3% 95%,
+      #ffe2d2 0,
+      #ffe2d2 50px,
+      transparent 51px
+    ),
+    #fffdf9;
+
+  box-shadow: 0 5px 20px rgba(102, 74, 53, 0.04);
+}
+
+.instructions-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  margin-bottom: 27px;
+}
+
+.heading-icon {
+  width: 65px;
+  height: 65px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+  background: var(--primary-light);
+
+  font-size: 30px;
+}
+
+.instructions-section-heading span {
+  display: block;
+  margin-bottom: 8px;
+
+  color: var(--primary-dark);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.7px;
+}
+
+.instructions-section-heading h2 {
+  margin: 0;
+  color: #3d251f;
+  font-size: 29px;
+}
+
+
+/* =========================================
+   RULE ITEMS
+========================================= */
+
+.rules-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  column-gap: 35px;
+  row-gap: 25px;
+}
+
+.rule-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.rule-number {
+  width: 53px;
+  height: 53px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: #ffe3d5;
+  color: #c4573b;
+
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.rule-content h3 {
+  margin: 4px 0 8px;
+
+  color: #3f3a45;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.rule-content p {
+  margin: 0;
+
+  color: #82777b;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+
+/* =========================================
+   RIGHT SIDE
+========================================= */
+
+.instructions-side-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* =========================================
+   QUICK TIP CARD
+========================================= */
+
+.preparation-card {
+  min-height: 190px;
+  padding: 28px;
+
+  border: 1px solid #dbe8d4;
+  border-radius: 23px;
+
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      #c6dfbb 0,
+      #c6dfbb 65px,
+      transparent 66px
+    ),
+    #eaf4e4;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.preparation-top {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.preparation-icon {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: #d3e8c9;
+
+  font-size: 27px;
+}
+
+.preparation-top span {
+  color: #57805d;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.preparation-card h2 {
+  margin: 17px 0 10px;
+
+  color: #214f42;
+  font-size: 24px;
+}
+
+.preparation-card p {
+  max-width: 330px;
+  margin: 0;
+
+  color: #5d7768;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.preparation-decoration {
+  margin-top: 18px;
+
+  color: #88b18a;
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+
+
+/* =========================================
+   READY CARD
+========================================= */
+
+.ready-card {
+  flex: 1;
+
+  padding: 30px 28px;
+
+  border: 1px solid #f4d9cd;
+  border-radius: 23px;
+
+  background:
+    radial-gradient(
+      circle at 95% 0%,
+      #ffd8c7 0,
+      #ffd8c7 55px,
+      transparent 56px
+    ),
+    #fff0e7;
+
+  text-align: center;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.ready-icon {
+  width: 72px;
+  height: 72px;
+
+  margin: 0 auto 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: #ffdfd0;
+
+  font-size: 35px;
+}
+
+.ready-card h2 {
+  margin: 0 0 12px;
+
+  color: #4b2b21;
+  font-size: 25px;
+}
+
+.ready-card p {
+  max-width: 280px;
+  margin: 0 auto;
+
+  color: #986e60;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   START QUIZ BUTTON
+========================================= */
+
+.start-quiz-button {
+  width: 100%;
+
+  margin-top: 25px;
+  padding: 16px 20px;
+
+  border: none;
+  border-radius: 30px;
+
+  background: #ff765f;
+  color: white;
+
+  font-size: 14px;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  box-shadow: 0 7px 15px rgba(245, 112, 88, 0.15);
+
+  transition: all 0.3s ease;
+}
+
+.start-quiz-button:hover {
+  background: #ed6049;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(245, 112, 88, 0.25);
+}
+
+.cancel-quiz-button {
+  margin-top: 17px;
+
+  border: none;
+  background: transparent;
+
+  color: #b36c5b;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.cancel-quiz-button:hover {
+  color: #e75e45;
+  text-decoration: underline;
+}
+
+
+/* =========================================
+   BOTTOM MESSAGE
+========================================= */
+
+.instructions-bottom-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  margin-top: 20px;
+  padding: 21px 30px;
+
+  border: 1px solid #e9dff0;
+  border-radius: 20px;
+
+  background: linear-gradient(
+    90deg,
+    #f5e8f7,
+    #f9edf4
+  );
+}
+
+.instructions-bottom-message span {
+  font-size: 24px;
+}
+
+.instructions-bottom-message p {
+  margin: 0;
+
+  color: #83708e;
+
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+
+  text-align: center;
+}
+
+
+/* =========================================
+   TABLET RESPONSIVE
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .instructions-content,
+  .instructions-topbar {
+    width: 92%;
+  }
+
+  .instructions-hero {
+    padding: 25px;
+  }
+
+  .hero-subject-icon {
+    width: 110px;
+    height: 110px;
+    font-size: 52px;
+  }
+
+  .hero-subject-content h1 {
+    font-size: 32px;
+  }
+
+  .quiz-information-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .instructions-main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .instructions-side-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+@media (max-width: 650px) {
+
+  .instructions-topbar {
+    min-height: 80px;
+    padding: 0;
+  }
+
+  .instructions-back-button {
+    padding: 11px 14px;
+    font-size: 11px;
+  }
+
+  .instructions-brand {
+    font-size: 19px;
+  }
+
+  .instructions-brand span {
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+  }
+
+  .instructions-content {
+    width: 92%;
+  }
+
+  .instructions-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 25px;
+  }
+
+  .hero-subject-icon {
+    width: 82px;
+    height: 82px;
+    font-size: 40px;
+  }
+
+  .hero-subject-content h1 {
+    font-size: 28px;
+    letter-spacing: -0.5px;
+  }
+
+  .hero-subject-content p {
+    font-size: 13px;
+  }
+
+  .hero-decoration {
+    right: 20px;
+    top: 15px;
+  }
+
+  .quiz-information-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .information-card {
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .information-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+  }
+
+  .information-text strong {
+    font-size: 21px;
+  }
+
+  .information-text span {
+    font-size: 10px;
+  }
+
+  .information-arrow {
+    display: none;
+  }
+
+  .instructions-rules-card {
+    padding: 23px 18px;
+  }
+
+  .instructions-section-heading {
+    gap: 12px;
+  }
+
+  .heading-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 22px;
+  }
+
+  .instructions-section-heading span {
+    font-size: 9px;
+  }
+
+  .instructions-section-heading h2 {
+    font-size: 22px;
+  }
+
+  .rules-list {
+    grid-template-columns: 1fr;
+    row-gap: 22px;
+  }
+
+  .rule-number {
+    width: 43px;
+    height: 43px;
+    font-size: 14px;
+  }
+
+  .rule-content h3 {
+    font-size: 14px;
+  }
+
+  .rule-content p {
+    font-size: 12px;
+  }
+
+  .instructions-side-column {
+    display: flex;
+  }
+
+  .preparation-card,
+  .ready-card {
+    padding: 24px 20px;
+  }
+
+  .preparation-card h2,
+  .ready-card h2 {
+    font-size: 22px;
+  }
+
+  .instructions-bottom-message {
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .instructions-bottom-message p {
+    font-size: 11px;
+  }
+
+}
