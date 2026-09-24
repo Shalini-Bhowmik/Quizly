@@ -37,7 +37,7 @@ function AdminDashboard({
 
   const loadStats = () => {
 
-    fetch('http://localhost:5000/admin/stats')
+    fetch('https://quizly-s4ns.onrender.com/admin/stats')
 
       .then(response => response.json())
 
@@ -75,7 +75,7 @@ function AdminDashboard({
 
   const loadSubjects = () => {
 
-    fetch('http://localhost:5000/admin/subjects')
+    fetch('https://quizly-s4ns.onrender.com/admin/subjects')
 
       .then(response => response.json())
 
@@ -151,7 +151,7 @@ function AdminDashboard({
     };
 
 
-    fetch('http://localhost:5000/admin/subjects', {
+    fetch('https://quizly-s4ns.onrender.com/admin/subjects', {
 
       method: 'POST',
 
@@ -222,7 +222,7 @@ function AdminDashboard({
 
 
     fetch(
-      `http://localhost:5000/admin/subjects/${subject.id}`,
+      `https://quizly-s4ns.onrender.com/admin/subjects/${subject.id}`,
       {
 
         method: 'PUT',
@@ -330,7 +330,7 @@ function AdminDashboard({
 
 
     fetch(
-      `http://localhost:5000/admin/subjects/${subject.id}`,
+      `https://quizly-s4ns.onrender.com/admin/subjects/${subject.id}`,
       {
 
         method: 'PUT',

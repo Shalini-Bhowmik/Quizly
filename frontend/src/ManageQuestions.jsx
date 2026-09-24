@@ -22,7 +22,7 @@ function ManageQuestions({ onDashboard }) {
         correct_answer: ""
     });
 
-    const API_URL = "http://localhost:5000";
+    const API_URL = "https://quizly-s4ns.onrender.com";
 
     // Fetch subjects and questions
     useEffect(() => {

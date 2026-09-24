@@ -10,7 +10,7 @@ function AdminResults({ onDashboard }) {
 
   useEffect(() => {
 
-    fetch('http://localhost:5000/admin/results')
+    fetch('https://quizly-s4ns.onrender.com/admin/results')
 
       .then(response => {
 

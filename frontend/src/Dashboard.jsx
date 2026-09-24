@@ -41,7 +41,7 @@ function Dashboard({
       return;
     }
 
-    fetch(`http://localhost:5000/dashboard/${userId}`)
+    fetch(`https://quizly-s4ns.onrender.com/dashboard/${userId}`)
       .then((response) => {
 
         if (!response.ok) {
@@ -100,7 +100,7 @@ function Dashboard({
 
   useEffect(() => {
 
-    fetch('http://localhost:5000/admin/subjects')
+    fetch('https://quizly-s4ns.onrender.com/admin/subjects')
       .then((response) => {
 
         if (!response.ok) {

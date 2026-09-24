@@ -782,7 +782,7 @@ function Quiz({
 
             const response =
                 await fetch(
-                    "http://localhost:5000/quiz-result",
+                    "https://quizly-s4ns.onrender.com/quiz-result",
                     {
                         method: "POST",
 

@@ -28,7 +28,7 @@ function ManageSubjects({ onDashboard }) {
 
     setLoading(true);
 
-    fetch('http://localhost:5000/admin/subjects')
+    fetch('https://quizly-s4ns.onrender.com/admin/subjects')
       .then(response => response.json())
       .then(data => {
 
@@ -164,8 +164,8 @@ function ManageSubjects({ onDashboard }) {
 
 
     const url = editingSubject
-      ? `http://localhost:5000/admin/subjects/${editingSubject.id}`
-      : 'http://localhost:5000/admin/subjects';
+      ? `https://quizly-s4ns.onrender.com/admin/subjects/${editingSubject.id}`
+      : 'https://quizly-s4ns.onrender.com/admin/subjects';
 
     const method = editingSubject
       ? 'PUT'
@@ -243,7 +243,7 @@ function ManageSubjects({ onDashboard }) {
     try {
 
       const response = await fetch(
-        `http://localhost:5000/admin/subjects/${id}`,
+        `https://quizly-s4ns.onrender.com/admin/subjects/${id}`,
         {
           method: 'DELETE'
         }

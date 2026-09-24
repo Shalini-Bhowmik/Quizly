@@ -51,7 +51,7 @@ function QuizInstructions({
     // ------------------------------------------
 
     fetch(
-      `http://localhost:5000/quiz-config/${encodeURIComponent(subject)}`
+      `/quiz-config/${encodeURIComponent(subject)}`
     )
       .then((response) => {
 
@@ -95,7 +95,7 @@ function QuizInstructions({
         // --------------------------------------
 
         return fetch(
-          `http://localhost:5000/questions/${encodeURIComponent(subject)}`
+          `https://quizly-s4ns.onrender.com/questions/${encodeURIComponent(subject)}`
         );
 
       })

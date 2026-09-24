@@ -16,7 +16,7 @@ function AdminLogin({ onAdminLogin, onHome }) {
     try {
 
       const response = await fetch(
-        'http://localhost:5000/admin/login',
+        'https://quizly-s4ns.onrender.com/admin/login',
         {
           method: 'POST',
           headers: {

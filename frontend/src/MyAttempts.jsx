@@ -18,7 +18,7 @@ function MyAttempts({ userId, onDashboard }) {
       return;
     }
 
-    fetch(`http://localhost:5000/attempts/${userId}`)
+    fetch(`https://quizly-s4ns.onrender.com/attempts/${userId}`)
 
       .then(response => response.json())
 

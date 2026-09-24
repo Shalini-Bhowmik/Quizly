@@ -35,7 +35,7 @@ function Login({ onLogin, onRegister, onHome }) {
 
     try {
 
-      const response = await fetch('http://localhost:5000/login', {
+      const response = await fetch('https://quizly-s4ns.onrender.com/login', {
 
         method: 'POST',
 
