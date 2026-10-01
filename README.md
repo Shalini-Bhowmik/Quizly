@@ -189,22 +189,55 @@ Database  →  Aiven MySQL
 ### 🏠 Dashboard
 
 <img width="1401" height="907" alt="Screenshot 2026-10-01 113430" src="https://github.com/user-attachments/assets/777b22d5-a8b4-40e5-9cb8-7cf2a730e073" />
+
 <img width="1397" height="896" alt="Screenshot 2026-10-01 113516" src="https://github.com/user-attachments/assets/4a68c486-abb7-41da-828b-599f4c814441" />
 
+
+
 ### 📝 Quiz Interface
+
+
 <img width="1401" height="902" alt="Screenshot 2026-10-01 113633" src="https://github.com/user-attachments/assets/3cd54f02-90d1-402d-afdd-7c027c3f01cf" />
+
 <img width="1388" height="887" alt="Screenshot 2026-10-01 113702" src="https://github.com/user-attachments/assets/c301847d-ec44-42d5-bba5-89a6574bdf27" />
+
 <img width="1912" height="1072" alt="Screenshot 2026-10-01 113801" src="https://github.com/user-attachments/assets/360dbbea-e438-45a9-9ab3-9feb8360dad2" />
+
 <img width="1895" height="896" alt="Screenshot 2026-10-01 113835" src="https://github.com/user-attachments/assets/bc1cd780-6357-4a77-ad64-409494e07469" />
+
 <img width="1880" height="902" alt="Screenshot 2026-10-01 113854" src="https://github.com/user-attachments/assets/83f73fd1-4f69-4cbd-b330-2adbf32bc656" />
 
+
+
 ### 📊 Results
+
+<img width="600" height="857" alt="image" src="https://github.com/user-attachments/assets/09b64ce7-129e-4ca1-893a-edf6e9ddfb31" />
+
+<img width="592" height="907" alt="image" src="https://github.com/user-attachments/assets/f5bdada9-600f-4717-9048-43928f749988" />
+
 
 
 ### 👨‍💼 Admin Panel
 
-```text
-Add your admin panel screenshot here
+<img width="1917" height="900" alt="image" src="https://github.com/user-attachments/assets/e0d4b082-2aae-4777-b9a5-e0dcc263b441" />
+
+MANAGE SUBJECTS:
+
+<img width="1370" height="902" alt="image" src="https://github.com/user-attachments/assets/286d284a-2569-4f92-b377-c26168801bdd" />
+
+<img width="1367" height="892" alt="image" src="https://github.com/user-attachments/assets/067f4617-0cbe-4b95-9b14-e72930dceeb7" />
+
+MANAGE QUESTIONS:
+
+<img width="1901" height="910" alt="image" src="https://github.com/user-attachments/assets/912a9054-84d5-49c3-9e96-1fd8511f6d74" />
+
+
+
+
+
+
+
+
 
 
 ## 💡 Key Highlights
