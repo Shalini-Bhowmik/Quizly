@@ -185,25 +185,21 @@ Database  →  Aiven MySQL
 
 ## 📸 Screenshots
 
-Add screenshots of your application here to showcase the UI.
 
 ### 🏠 Dashboard
 
-```text
-Add your dashboard screenshot here
-```
+<img width="1401" height="907" alt="Screenshot 2026-10-01 113430" src="https://github.com/user-attachments/assets/777b22d5-a8b4-40e5-9cb8-7cf2a730e073" />
+<img width="1397" height="896" alt="Screenshot 2026-10-01 113516" src="https://github.com/user-attachments/assets/4a68c486-abb7-41da-828b-599f4c814441" />
 
 ### 📝 Quiz Interface
-
-```text
-Add your quiz screenshot here
-```
+<img width="1401" height="902" alt="Screenshot 2026-10-01 113633" src="https://github.com/user-attachments/assets/3cd54f02-90d1-402d-afdd-7c027c3f01cf" />
+<img width="1388" height="887" alt="Screenshot 2026-10-01 113702" src="https://github.com/user-attachments/assets/c301847d-ec44-42d5-bba5-89a6574bdf27" />
+<img width="1912" height="1072" alt="Screenshot 2026-10-01 113801" src="https://github.com/user-attachments/assets/360dbbea-e438-45a9-9ab3-9feb8360dad2" />
+<img width="1895" height="896" alt="Screenshot 2026-10-01 113835" src="https://github.com/user-attachments/assets/bc1cd780-6357-4a77-ad64-409494e07469" />
+<img width="1880" height="902" alt="Screenshot 2026-10-01 113854" src="https://github.com/user-attachments/assets/83f73fd1-4f69-4cbd-b330-2adbf32bc656" />
 
 ### 📊 Results
 
-```text
-Add your result screenshot here
-```
 
 ### 👨‍💼 Admin Panel
 
